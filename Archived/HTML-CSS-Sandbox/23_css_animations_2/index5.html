@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<style>
+		
+			@-webkit-keyframes a1 {
+				25% {
+					width : 200px;
+					height : 200px;
+					background-color : yellow;
+				}
+				
+				50% {
+					width : 400px;
+					height : 600px;
+					background-color : blue;
+				}
+				
+				75% {
+					width : 200px;
+					height : 200px;
+					background-color : red;
+				}
+				
+				100% {
+					width : 100px;
+					height : 400px;
+					background-color : orange;
+					-webkit-transform : rotate(30deg);
+				}
+			}
+			
+			#d1 {
+				width : 200px;
+				height : 200px;
+				background-color : yellow;
+				-webkit-animation : a1 4s;
+				-webkit-animation-iteration-count : infinite;
+				-webkit-animation-direction : alternate;
+			}
+			
+			#d1:hover {
+				-webkit-animation-play-state : paused;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="d1">
+			Hellooo
+		</div>
+	</body>
+</html>

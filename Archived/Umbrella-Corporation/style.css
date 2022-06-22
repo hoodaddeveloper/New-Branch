@@ -1,0 +1,48 @@
+table {
+	width:1000px;
+	border-spacing:0px;
+	font-size:30px;
+}
+
+.styling1 {
+	background-color:#a0effb;
+	text-align:center;
+	width:500px;
+	height:70px;
+}
+
+.styling2 {
+	background-color:#a6ddaf;
+	text-align:center;
+	height:70px;
+}
+
+.styling3 {
+	background-color:#f3c9e9;
+	text-align:center;
+	height:140px;
+}
+
+.styling4 {
+	background-color:#f3c9e9;
+	height:70px;
+}
+
+.styling5 {
+	background-color:#d5bb8b;
+	text-align:center;
+}
+
+.styling6 {
+	background-color:#a6ddaf;
+}
+
+.styling7 {
+	background-color:#e8cb8d;
+	text-align:center;
+}
+
+.styling8 {
+	background-color:#e7e88d;
+	text-align:center;
+}

@@ -1,0 +1,14 @@
+p {
+	background-color:yellow;
+	color:red !important;
+	font-size:24pt;
+}
+
+.p1 {
+	background-color:lime;
+	color:red;
+}
+	
+#p1 {
+	color : yellow;
+}

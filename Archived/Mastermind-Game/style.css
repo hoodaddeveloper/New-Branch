@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Sofia", sans-serif;
+  background: linear-gradient(rgb(165, 220, 246), rgb(2, 175, 2));
+}
+
+.flexer {
+  display: flex;
+}
+
+.board {
+  width: 30%;
+  height: 96vh;
+  min-width: 420px;
+  margin: 2vh auto;
+  border-radius: 15px;
+  border: 5px groove #941b0b;
+  box-shadow: 5px 5px 15px 5px rgb(8, 7, 5);
+  background: linear-gradient(rgb(197, 82, 82), rgb(88, 9, 9));
+}
+
+/*---- answer-container ----*/
+
+.answer-container {
+  width: 99%;
+  height: 11%;
+  border-radius: 15px 15px 0 0;
+}
+
+.answer-box {
+  width: 71%;
+  height: 100%;
+  border-right: 5px groove #941b0b;
+}
+
+.answer {
+  width: 90%;
+  height: 80%;
+  margin: 0 auto;
+  margin-top: 7px;
+  border-radius: 15px;
+  box-shadow: inset -1px -1px 1px 2px;
+  background: linear-gradient(rgb(197, 82, 82), rgb(88, 9, 9));
+}
+
+.btn-container {
+  width: 29%;
+  height: 100%;
+}
+
+.submit-btn {
+  width: 80%;
+  height: 80%;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 15px;
+  margin: 7px 0 0 16px;
+  text-shadow: 1px 1px 2px black;
+  box-shadow: inset -2px -2px 5px 2px;
+  background-color: rgb(206, 205, 205);
+}
+
+.submit-btn:hover {
+  transition: 0.3s;
+  background: rgb(178, 176, 176);
+}
+
+.text {
+  margin: 0 auto;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+/*---- guess-container ----*/
+
+.guess-container {
+  width: 100%;
+  height: 80%;
+}
+
+.guess-row {
+  width: 100%;
+  height: 74px;
+}
+
+.guess-pegs {
+  width: 69%;
+  height: 90%;
+  padding: 4px 5px;
+  border-top: 5px groove #941b0b;
+}
+
+.guess-peg {
+  width: 20%;
+  height: 80%;
+  margin: 2px 0 0 10px;
+  border-radius: 50%;
+  background: (rgb(88, 9, 9));
+  box-shadow: inset 4px 4px 8px 2px;
+  border-right: 4px solid #941b0b;
+  border-bottom: 4px solid #941b0b;
+}
+
+.guess-peg:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: inset 4px 4px 8px 7px;
+  border-right: 4px solid #7c1609;
+  border-bottom: 4px solid #7c1609;
+}
+
+.grade-pegs {
+  width: 30%;
+  flex-wrap: wrap;
+  border-top: 5px groove #941b0b;
+  border-left: 5px groove #941b0b;
+}
+
+.grade-peg {
+  width: 20%;
+  height: 35%;
+  border-radius: 50%;
+  margin: 4px 0 0 26px;
+  background: (rgb(88, 9, 9));
+  box-shadow: inset 2px 2px 5px 2px;
+  border-right: 3px solid #941b0b;
+  border-bottom: 3px solid #941b0b;
+}
+
+/*---- selection-container ----*/
+
+.selection-container {
+  width: 100%;
+  height: 10%;
+  margin-top: 5px;
+  border-radius: 0 0 15px 15px;
+  border-top: 5px groove #941b0b;
+}
+
+.selector-outer {
+  width: 12%;
+  height: 65%;
+  border-radius: 50%;
+  margin: 4px 0 0 16px;
+  background: (rgb(88, 9, 9));
+  box-shadow: inset 4px 4px 8px 2px;
+  border-right: 4px solid #941b0b;
+  border-bottom: 4px solid #941b0b;
+}
+
+.selector-outer:hover {
+  cursor: pointer;
+}
+
+.selector-inner {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  margin: 4px 0 0 5px;
+  background: (rgb(88, 9, 9));
+  box-shadow: inset 2px 2px 5px 2px;
+  border-right: 3px solid #941b0b;
+  border-bottom: 3px solid #941b0b;
+}
+
+.red {
+  background-color: red;
+}
+
+.red:hover {
+  transition: 0.2s;
+  background-color: darkred;
+}
+
+.green {
+  background-color: green;
+}
+
+.green:hover {
+  transition: 0.2s;
+  background-color: darkgreen;
+}
+
+.white {
+  background-color: white;
+}
+
+.white:hover {
+  transition: 0.2s;
+  background-color: gray;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.blue:hover {
+  transition: 0.2s;
+  background-color: darkblue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.yellow:hover {
+  transition: 0.2s;
+  background-color: rgb(118, 118, 11);
+}
+
+.black {
+  background-color: rgb(22, 21, 21);
+}
+
+.black:hover {
+  transition: 0.2s;
+  background-color: black;
+}

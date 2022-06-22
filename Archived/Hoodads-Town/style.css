@@ -1,0 +1,192 @@
+body {
+  background-color: #faf8da;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+.primary-header {
+  text-align: center;
+  color: #205d76;
+}
+
+.main-heading {
+  color: #205d76;
+}
+
+.town-preview {
+  width: 650px;
+  background-color: #beeef3;
+  margin: auto;
+}
+
+.main {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.storesection1 {
+  display: inline-block;
+  width: 450px;
+}
+
+.storesection2 {
+  display: inline-block;
+  width: 450px;
+}
+
+.storesection3 {
+  display: inline-block;
+  width: 450px;
+}
+
+.building {
+  width: 200px;
+}
+
+.category-heading {
+  color: #205d76;
+}
+
+.storelist {
+  color: #ffc122;
+  padding-left: 10px;
+}
+
+.storename {
+  margin-bottom: 10px;
+}
+
+.storelink {
+  color: #ea6e2f;
+  text-decoration: none;
+}
+
+.created-by {
+  color: white;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #f3bd19;
+  padding: 1px;
+  margin-top: 200px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+    width: 100%;
+  }
+
+  .town-preview {
+    background-color: #beeef3;
+    width: 100%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  .building {
+    width: 70%;
+  }
+
+  .storename {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+    width: 100%;
+  }
+
+  .town-preview {
+    background-color: #beeef3;
+    width: 100%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  .building {
+    width: 70%;
+  }
+
+  .storename {
+    font-size: 30px;
+  }
+}
+
+@media (max-device-width: 360px) {
+  body {
+    width: 100%;
+  }
+
+  .town-preview {
+    background-color: #beeef3;
+    width: 100%;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  .building {
+    width: 80%;
+  }
+
+  .storename {
+    font-size: 30px;
+  }
+
+  footer {
+    background-color: #f3bd19;
+    padding: 1px;
+    margin-top: 100px;
+    text-align: center;
+  }
+}

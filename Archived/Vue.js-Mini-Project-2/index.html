@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Hello Vue.Js!</title>
+
+  <style>
+    .kurs {
+      padding: 20px;
+      border-radius: 15px;
+      background-color: #eef0b5;
+      border: 1px solid #a1a465;
+    }
+
+    .abonniert {
+      background-color:#cafbf6;
+      border: 1px solid #7ed0c8;
+    }
+  </style>
+
+</head>
+<body>
+
+<script src="https://unpkg.com/vue@3"></script>
+
+<div id="app">
+  <div class="row">
+    <div class="col-md-8 mx-auto">
+      <h1 class="text-center m-3">Web-Design Kurse</h1>
+      <hr>
+      
+      <div>
+        <input type="checkbox" class="form-checkbox-input m-2" v-model="filter">
+        <span v-if="filter">Nur abonnierte Kurse zeigen</span>
+        <span v-else="filter">Alle Kurse zeigen</span>
+      </div>
+
+      <div v-if="alleKurse.length != 0">
+        <div v-for="Kurs in alleKurse" class="row kurs mb-2" v-bind:class="{ abonniert : Kurs.abonniert }">
+          <p class="col mb-0">Kurs: {{ Kurs.Titel }}</p>
+          <p class="col mb-0">Lehrer: {{ Kurs.Lehrer }}</p>
+          <p class="col mb-0">{{ Kurs.Motto }}</p>
+          <p class="col mb-0">
+            <img src="true.png" v-if="Kurs.abonniert" @click="Kurs.abonniert = !Kurs.abonniert" style="cursor: pointer; width: 28">
+            <img src="false.png" v-else @click="Kurs.abonniert = !Kurs.abonniert" style="cursor: pointer; width: 28">
+          </p>
+          <p class="col">Likes: {{ Kurs.Likes }}</p>
+        </div>
+      </div>
+
+      <div v-else>
+        <div class="text-center alert alert-danger">Du hast keinen Kanal abonniert.</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+  Vue.createApp({
+    data() {
+      return {
+        Kurse: [
+          {
+            Titel: "Java Script",
+            Lehrer: "Hoodad",
+            Motto: "Ich liebe Java Script!",
+            Likes: 30,
+            abonniert: true,
+          },
+
+          {
+            Titel: "PHP",
+            Lehrer: "Dominik",
+            Motto: "Ich liebe PHP!",
+            Likes: 25,
+            abonniert: false,
+          },
+
+          {
+            Titel: "Python",
+            Lehrer: "Tim",
+            Motto: "Ich liebe Python!",
+            Likes: 35,
+            abonniert: true,
+          }
+        ],
+
+        filter: false
+      }
+    },
+
+    methods: {
+    },
+
+    computed: {
+
+      alleKurse() {
+        return (this.filter) ? this.abonnierteKurse : this.Kurse
+      },
+
+      abonnierteKurse() {
+        return this.Kurse.filter(Kurs => Kurs.abonniert)
+      },
+    },
+    watch: {
+
+    }
+
+  }).mount('#app')
+</script>
+
+</body>
+</html>
