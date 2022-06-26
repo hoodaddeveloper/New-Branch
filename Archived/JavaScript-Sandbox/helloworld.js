@@ -1,10 +1,9 @@
 /* 
     This is a practice to understand
-    JavaScript basics
+    JavaScript Basics
 */
 
 // Declaring Variables
-
 const firstName = 'Hoodad' // String
 let lastName = 'Wesker'
 let nickName
@@ -18,7 +17,7 @@ let generalInfo = {
     isAlive: true
 } // Object
 
-// Reassign the variable
+// Reassign the Variable
 nickName = 'MadVorteX' // String
 
 // Print Output
@@ -30,3 +29,5 @@ console.log('Sleeping : ' + isSleeping) // Sleeping : false
 console.log('Skills : ' + skills) // Skills : Valorant, Overwatch, Developer
 console.log('General Info : ' + generalInfo) // General Info : [object Object]
 console.log('Weight : ' + generalInfo.weight) // Weight : 55
+
+// Practicing JavaScript Data Types
