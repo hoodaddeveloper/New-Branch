@@ -76,6 +76,8 @@ console.log(b === c);
 
 /////     BigInt     /////
 
+let x = BigInt(Number.MAX_SAFE_INTEGER);
+console.log(x);
 
 /////     Object     /////
 
