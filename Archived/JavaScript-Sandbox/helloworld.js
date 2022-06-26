@@ -38,7 +38,7 @@ console.log('Weight : ' + generalInfo.weight) // Weight : 55
 
 // Boolean:
 let data = true;
-//let data = false;
+// let data = false;
 if (data) {
     console.log('Data is true')
 } else {
@@ -46,8 +46,14 @@ if (data) {
 }
 
 // Null:
+let n = null;
+    console.log(n * 10);
+// The Answer is "0", because the value of "n" is "null".
 
 // Undefined:
+let a;
+console.log(a * 10);
+// The Answer is "NaN", because the value of "a" is "undefined".
 
 // Symbol:
 
