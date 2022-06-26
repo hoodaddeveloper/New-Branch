@@ -30,20 +30,27 @@ console.log('Skills : ' + skills) // Skills : Valorant, Overwatch, Developer
 console.log('General Info : ' + generalInfo) // General Info : [object Object]
 console.log('Weight : ' + generalInfo.weight) // Weight : 55
 
-// Practicing JavaScript Data Types
+// Practicing JavaScript Data Types:
 
-// String
+// String:
 
-// Number
+// Number:
 
-// Boolean
+// Boolean:
+let data = true;
+//let data = false;
+if (data) {
+    console.log('Data is true')
+} else {
+    console.log('Data is false')
+}
 
-// Null
+// Null:
 
-// Undefined
+// Undefined:
 
-// Symbol
+// Symbol:
 
-// BigInt
+// BigInt:
 
-// Object
+// Object:
