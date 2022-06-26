@@ -6,7 +6,7 @@
 // Declaring Variables
 const firstName = 'Hoodad' // String
 let lastName = 'Wesker'
-let nickName
+let nickName = 'TheWesker'
 let age = 27 // Number
 let isSleeping = false // Boolean
 const skills = ['Valorant', 'Overwatch', 'Developer'] // Array
@@ -18,7 +18,7 @@ let generalInfo = {
 } // Object
 
 // Reassign the Variable
-nickName = 'MadVorteX' // String
+nickName = 'TheWesker' // String
 
 // Print Output
 console.log('First Name : ' + firstName) // First Name : Hoodad
@@ -36,6 +36,7 @@ console.log('Weight : ' + generalInfo.weight) // Weight : 55
 let string1 = "Welcome";
 let string2 = "Hello World";
 let string3 = "1, 2, 3, 4, 5, 6";
+console.log(string1 + string2 + string3);
 
 /////     Number     /////
 let myAge = 27;
