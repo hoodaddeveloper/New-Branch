@@ -32,31 +32,39 @@ console.log('Weight : ' + generalInfo.weight) // Weight : 55
 
 // Practicing JavaScript Data Types:
 
-// String:
+/////     String     /////
+let string1 = "Welcome";
+let string2 = "Hello World";
+let string3 = "1, 2, 3, 4, 5, 6";
 
-// Number:
+/////     Number     /////
+let myAge = 27;
+let myMoney = 205.50;
+console.log(myAge + myMoney);
 
-// Boolean:
+/////     boolean     /////
 let data = true;
-// let data = false;
+/* let data = false;*/
 if (data) {
-    console.log('Data is true')
+    console.log('Data is true');
 } else {
-    console.log('Data is false')
+    console.log('Data is false');
 }
 
-// Null:
+/////     Null     /////
 let n = null;
     console.log(n * 10);
-// The Answer is "0", because the value of "n" is "null".
+/* The Answer is "0", because the value of "n" is "null". */
 
-// Undefined:
+/////     Undefined     /////
 let a;
 console.log(a * 10);
-// The Answer is "NaN", because the value of "a" is "undefined".
+/* The Answer is "NaN", because the value of "a" is "undefined & it is not a Number". */
 
-// Symbol:
+/////     Symbol     /////
 
-// BigInt:
 
-// Object:
+/////     BigInt     /////
+
+
+/////     Object     /////
