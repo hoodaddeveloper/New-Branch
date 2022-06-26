@@ -31,3 +31,19 @@ console.log('General Info : ' + generalInfo) // General Info : [object Object]
 console.log('Weight : ' + generalInfo.weight) // Weight : 55
 
 // Practicing JavaScript Data Types
+
+// String
+
+// Number
+
+// Boolean
+
+// Null
+
+// Undefined
+
+// Symbol
+
+// BigInt
+
+// Object
