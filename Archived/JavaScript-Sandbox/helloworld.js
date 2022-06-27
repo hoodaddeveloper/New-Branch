@@ -95,9 +95,21 @@ console.log(2022 - 1969);
 console.log(65 / 240);
 console.log(0.2708 * 100);
 
-// Use .toUpperCase() to log 'Codecademy' in all uppercase letters
+// Use .toUpperCase() to log 'Codecademy' in all uppercase letters.
 console.log('Codecademy'.toUpperCase());
 
 // Use a string method to log the following string without whitespace at the beginning and end of it.
 console.log('    Remove whitespace   '.trim());
 
+// Inside of a console.log(), create a random number with Math.random(), then multiply it by 100.
+console.log(Math.random() * 100);
+
+// Inside the console.log(), put the existing Math.random() * 100 code inside the parentheses of Math.floor().
+console.log(Math.floor(Math.random() * 100));
+
+// A method that returns the smallest integer greater than or equal to a decimal number.
+console.log(Math.ceil(43.8));
+
+// This method checks if a number is an integer or not.
+console.log(Number.isInteger(2017)); // true
+console.log(Number.isInteger(2017.5)); // false
