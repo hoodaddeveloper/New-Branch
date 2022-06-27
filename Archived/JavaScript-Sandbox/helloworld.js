@@ -94,3 +94,10 @@ console.log(27 + 3.5);
 console.log(2022 - 1969);
 console.log(65 / 240);
 console.log(0.2708 * 100);
+
+// Use .toUpperCase() to log 'Codecademy' in all uppercase letters
+console.log('Codecademy'.toUpperCase());
+
+// Use a string method to log the following string without whitespace at the beginning and end of it.
+console.log('    Remove whitespace   '.trim());
+
