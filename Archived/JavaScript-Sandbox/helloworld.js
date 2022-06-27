@@ -129,3 +129,5 @@ console.log(changeMe);
 const entree = 'Enchiladas';
 console.log(entree);
 entree = 'Tacos' // This will give an type error
+
+/////     Mathematical Assignment Operators     /////
