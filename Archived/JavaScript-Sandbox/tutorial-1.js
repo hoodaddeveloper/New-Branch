@@ -14,3 +14,5 @@ let b = 10;
 b--;
 console.log(b); // 9
 
+/////     String Concatenation with Variables     /////
+
