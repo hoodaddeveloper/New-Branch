@@ -154,3 +154,5 @@ console.log(f); // 2
 let g = 20;
 g *= 2; // Can be written as g = g * 2
 console.log(g); // 10
+
+// Continue in tutorial-1.js
