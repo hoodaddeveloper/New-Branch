@@ -113,3 +113,15 @@ console.log(Math.ceil(43.8));
 // This method checks if a number is an integer or not.
 console.log(Number.isInteger(2017)); // true
 console.log(Number.isInteger(2017.5)); // false
+
+/////      Variables      /////
+var favoriteFood = 'pizza';
+var numOfSlices = 8;
+console.log(favoriteFood);
+console.log(numOfSlices);
+
+/////     let Variable     /////
+let changeMe = true;
+changeMe = false;
+console.log(changeMe);
+
