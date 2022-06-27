@@ -114,7 +114,7 @@ console.log(Math.ceil(43.8));
 console.log(Number.isInteger(2017)); // true
 console.log(Number.isInteger(2017.5)); // false
 
-/////      Variables      /////
+/////     Variables     /////
 var favoriteFood = 'pizza';
 var numOfSlices = 8;
 console.log(favoriteFood);
@@ -125,3 +125,7 @@ let changeMe = true;
 changeMe = false;
 console.log(changeMe);
 
+/////     const Variable     /////
+const entree = 'Enchiladas';
+console.log(entree);
+entree = 'Tacos' // This will give an type error
