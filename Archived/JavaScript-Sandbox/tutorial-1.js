@@ -55,3 +55,26 @@ and my favrite food is ${food}.`);
 
 /////     typeof operator     /////
 
+let variable1 = 'Playing around with typeof.';
+console.log(typeof variable1); // String
+
+let variable2 = 2008;
+console.log(typeof variable2); // Number
+
+let variable3 = true;
+console.log(typeof variable3); // Boolean
+
+let variable4 = null;
+console.log(typeof variable4); // Every Object is derived from null value, and therefore typeof operator returns "object" for it.
+
+let variable5;
+console.log(typeof variable5); // Undefined
+
+let variable6 = Symbol("a");
+console.log(typeof variable6); // Symbol
+
+let variable7 = {age: "27", height: "174"};
+console.log(typeof variable7); // Object
+
+let variable8 = function x() {};
+console.log(typeof variable8); // function
