@@ -55,7 +55,7 @@ and my favrite food is ${food}.`);
 
 /////     typeof operator     /////
 
-let variable1 = 'Playing around with typeof.';
+let variable1 = "Playing around with typeof.";
 console.log(typeof variable1); // String
 
 let variable2 = 2008;
@@ -73,8 +73,21 @@ console.log(typeof variable5); // Undefined
 let variable6 = Symbol("a");
 console.log(typeof variable6); // Symbol
 
-let variable7 = {age: "27", height: "174"};
+let variable7 = { age: "27", height: "174" };
 console.log(typeof variable7); // Object
 
 let variable8 = function x() {};
 console.log(typeof variable8); // function
+
+/////     Convert celsius to Fahrenheit     /////
+
+// The forecast today is 293 Kelvin.
+const kelvin = 293;
+// The celsius is 273 degrees less than Kelvin.
+const celsius = kelvin - 273;
+// This is the equation to calculate Fahrenheit.
+let fahrenheit = celsius * (9 / 5) + 32;
+fahrenheit = Math.floor(fahrenheit);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+// continue in tutorial-2.js ...
