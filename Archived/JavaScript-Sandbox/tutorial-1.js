@@ -81,13 +81,16 @@ console.log(typeof variable8); // function
 
 /////     Convert celsius to Fahrenheit     /////
 
-// The forecast today is 293 Kelvin.
+// The forecast today is 293 Kelvin
 const kelvin = 293;
-// The celsius is 273 degrees less than Kelvin.
+
+// The celsius is 273 degrees less than Kelvin
 const celsius = kelvin - 273;
-// This is the equation to calculate Fahrenheit.
+
+// This is the equation to calculate Fahrenheit
 let fahrenheit = celsius * (9 / 5) + 32;
 fahrenheit = Math.floor(fahrenheit);
+
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
 
 // continue in tutorial-2.js ...

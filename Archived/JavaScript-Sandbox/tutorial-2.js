@@ -1,10 +1,14 @@
 /////     Convert celsius to Newton     /////
 
-// The temperature today is 200 Newton.
-const newton = 200;
-// The celsius is 300 degrees.
-const celsius = 300;
-// This is the equation to calculate Newton.
-let Newton = Celsius * (33/100);
+// The celsius is 200 degrees
+let celsius = 200;
+
+// Convert to Newton
+let newton = celsius * (33 / 100);
+
+// Round down
 newton = Math.floor(newton);
-console.log(`The temperature is ${newton} degrees Kelvin.`);
+
+console.log(`The temperature is ${newton} degrees Newton.`);
+
+/////     Dog Years Project     /////
