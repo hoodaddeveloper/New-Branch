@@ -6,12 +6,10 @@
 
 /////     Literals in JavaScript     /////
 
-// Object {}
-// Boolean true, false
-// String "", ''
-// Template ``
-//
-//
+// Object:     {}
+// Boolean:    true , false
+// String:     "" , ''
+// Template:   ``
 
 /////     The Increment and Decrement Operator     /////
 
@@ -22,6 +20,9 @@ console.log(a); // 11
 let b = 10;
 b--;
 console.log(b); // 9
+
+let myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
 
 /////     String Concatenation with Variables     /////
 
@@ -92,5 +93,14 @@ let fahrenheit = celsius * (9 / 5) + 32;
 fahrenheit = Math.floor(fahrenheit);
 
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+// One more Example
+
+let myEx1 = "This is the first sentence. " + "This is the second sentence.";
+
+let myEx2 = "This is the first sentence. ";
+myEx2 += "This is the second sentence.";
+console.log(myEx1);
+console.log(myEx2);
 
 // continue in tutorial-2.js ...
