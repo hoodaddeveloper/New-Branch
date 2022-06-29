@@ -76,7 +76,7 @@ const theArray = [
 const myData = theArray[3][1];
 console.log(myData); // 13
 
-// Use "push()" to add an Array to the end of the array "array1"
+// Use "push()" to add a value to the end of the array
 
 const array1 = [
   ["John", 23],
@@ -92,5 +92,14 @@ const array2 = [
   ["Ali", 20],
   ["Alex", 30],
 ];
+
 array2.push(12345);
-console.log(array2); // 
+console.log(array2); // [['Hoodad', 27], ['Ali', 20], ['Alex', 30], 12345]
+
+// Use "pop()" to remove a value from the end of the array
+
+const array3 = [["John", 23], ["cat", 2]];
+const removedFromArray3 = array3.pop();
+
+console.log(array3); // ['John', 23]
+console.log(removedFromArray3); // ['cat', 2]
