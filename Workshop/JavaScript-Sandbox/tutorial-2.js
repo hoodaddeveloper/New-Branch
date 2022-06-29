@@ -35,3 +35,20 @@ let myName = "HOODAD".toLowerCase();
 // Display my Age in Dog Years
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
 
+// // // // //     SOME MORE PRACTICES FROM FREECODECAMP.ORG     // // // // //
+
+/////     Use Bracket Notation to Find the First Character in a String     /////
+
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Use bracket notation to find the first character in lastName
+firstLetterOfLastName = lastName[0];
+console.log(firstLetterOfLastName); // L
+
+// Use Bracket Notation to Find the Last Character in a String
+
+let myFirstName = "Hoodad";
+let lastLetterOfLastName = myFirstName[myFirstName.length - 1];
+
+console.log(lastLetterOfLastName); // d
