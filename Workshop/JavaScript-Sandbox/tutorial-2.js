@@ -29,8 +29,9 @@ laterYears *= 4;
 // My Age in Dog Years
 let myAgeInDogYears = myAge + laterYears;
 
-// Lowercase letters of my name
+// Lowercase letters of my Name
 let myName = "HOODAD".toLowerCase();
 
 // Display my Age in Dog Years
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+

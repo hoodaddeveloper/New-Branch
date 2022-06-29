@@ -139,6 +139,12 @@ let w = 4;
 w = w + 1;
 console.log(w); // 5
 
+const product = 2.0 * 2.5;
+console.log(product); // 5.0
+
+const money = 5000 + 5000;
+console.log(money); // 10000
+
 let q = 5;
 q += 1; // Can be written as q = q + 1
 console.log(q); // 6
