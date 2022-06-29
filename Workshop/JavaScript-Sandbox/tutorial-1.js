@@ -94,13 +94,20 @@ fahrenheit = Math.floor(fahrenheit);
 
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
 
-// One more Example
+// More Examples
 
 let myEx1 = "This is the first sentence. " + "This is the second sentence.";
 
 let myEx2 = "This is the first sentence. ";
 myEx2 += "This is the second sentence.";
+
 console.log(myEx1);
 console.log(myEx2);
+
+const someAdjective = "very awsome for me.";
+let myEx3 = "Learning to code is ";
+myEx3 += someAdjective;
+
+console.log(myEx3);
 
 // continue in tutorial-2.js ...
