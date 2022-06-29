@@ -8,7 +8,6 @@ let newton = celsius * (33 / 100);
 
 // Round down
 newton = Math.floor(newton);
-
 console.log(`The temperature is ${newton} degrees Newton.`);
 
 /////     Dog Years Project     /////
@@ -33,7 +32,8 @@ let myAgeInDogYears = myAge + laterYears;
 let myName = "HOODAD".toLowerCase();
 
 // Display my Age in Dog Years
-console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+console.log(`My name is ${myName}. I am ${myAge} years old in
+human years which is ${myAgeInDogYears} years old in dog years.`);
 
 // // // // //     SOME MORE PRACTICES FROM FREECODECAMP.ORG     // // // // //
 
@@ -43,6 +43,7 @@ let firstLetterOfLastName = "";
 const lastName = "Lovelace";
 
 // Use bracket notation to find the first character in lastName
+
 firstLetterOfLastName = lastName[0];
 console.log(firstLetterOfLastName); // L
 
@@ -50,5 +51,16 @@ console.log(firstLetterOfLastName); // L
 
 let myFirstName = "Hoodad";
 let lastLetterOfLastName = myFirstName[myFirstName.length - 1];
-
 console.log(lastLetterOfLastName); // d
+
+// Use Bracket Notation to Find the Third Character in a String
+
+let myArray = ["John", "Jane", "Mark", "Bob"];
+let finder = myArray[2];
+console.log(finder); // Mark
+
+// Use Bracket Notation to add 45 to the Array of Numbers
+const myArr = [18, 64, 99];
+myArr[0] = 45; // myArr[0] is 18, so it will be 45
+console.log(myArr); // [45, 64, 99]
+
