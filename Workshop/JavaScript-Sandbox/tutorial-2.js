@@ -98,8 +98,31 @@ console.log(array2); // [['Hoodad', 27], ['Ali', 20], ['Alex', 30], 12345]
 
 // Use "pop()" to remove a value from the end of the array
 
-const array3 = [["John", 23], ["cat", 2]];
+const array3 = [
+  ["John", 23],
+  ["cat", 2],
+];
 const removedFromArray3 = array3.pop();
 
 console.log(array3); // ['John', 23]
 console.log(removedFromArray3); // ['cat', 2]
+
+// Use "shift()" to remove the first value from the array
+
+const array4 = [
+  ["John", 23],
+  ["cat", 2],
+];
+const removedFromArray4 = array4.shift();
+console.log(array4); // ['cat', 2]
+console.log(removedFromArray4); // ['John', 23]
+
+// Use "unshift()" to add a value to the beginning of the array
+
+const array5 = [["John", 23], ["dog", 3], ["Akbar", 20]];
+array5.shift(); // removes the first element
+console.log(array5); // [['dog', 3], ['Akbar', 20]]
+
+array5.unshift(["Paul", 35]); // adds the element to the beginning
+console.log(array5); // [['Paul', 35], ['dog', 3], ['Akbar', 20]]
+
