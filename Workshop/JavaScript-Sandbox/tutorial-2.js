@@ -126,3 +126,13 @@ console.log(array5); // [['dog', 3], ['Akbar', 20]]
 array5.unshift(["Paul", 35]); // adds the element to the beginning
 console.log(array5); // [['Paul', 35], ['dog', 3], ['Akbar', 20]]
 
+/////     Functions     /////
+
+// A Function that accepts one argument, multiplies it by 5, and returns the new value
+
+function timesFive(number) {
+  return number * 5;
+}
+
+const answer = timesFive(5); // 25
+
