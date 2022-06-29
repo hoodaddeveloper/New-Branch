@@ -64,3 +64,33 @@ const myArr = [18, 64, 99];
 myArr[0] = 45; // myArr[0] is 18, so it will be 45
 console.log(myArr); // [45, 64, 99]
 
+// Using bracket notation select an element from "theArray" such that "myData" is equal to "13"
+
+const theArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+const myData = theArray[3][1];
+console.log(myData); // 13
+
+// Use "push()" to add an Array to the end of the array "array1"
+
+const array1 = [
+  ["John", 23],
+  ["cat", 2],
+];
+
+array1.push(["dog", 3]);
+console.log(array1); // [['John', 23], ['cat', 2], ['dog', 3]]
+
+// 2nd Example
+const array2 = [
+  ["Hoodad", 27],
+  ["Ali", 20],
+  ["Alex", 30],
+];
+array2.push(12345);
+console.log(array2); // 
