@@ -29,3 +29,8 @@ if (wordCount) {
 } else {
   console.log('Better get to work!');
 }
+
+// The code below checks if username is defined and assigns a default string if it is not
+
+let userName = ""; // Change this line
+let defaultName;
