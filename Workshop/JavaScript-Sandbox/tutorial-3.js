@@ -34,3 +34,18 @@ if (wordCount) {
 
 let userName = ""; // Change this line
 let defaultName;
+
+if (userName) {
+  defaultName = userName;
+} else {
+  defaultName = "Stranger";
+}
+
+console.log(defaultName); // Prints: Stranger
+
+// 2nd & shorter example using the || operator
+
+let userName2 = ''; // Change this line
+let defaultName2 = userName2 || 'Stranger';
+ 
+console.log(defaultName2); // Prints: Stranger
