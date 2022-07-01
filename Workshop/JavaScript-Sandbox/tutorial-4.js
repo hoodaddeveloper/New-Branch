@@ -159,3 +159,5 @@ switch (randomNumber) {
   console.log('Signs point to yes');
   break;
 }
+
+// Continue in tutorial-5.js ...
