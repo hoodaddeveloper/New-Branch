@@ -57,7 +57,4 @@ function testLogicalAnd(val) {
   return "No";
 }
 
-testLogicalAnd(10);
-
-// The switch keyword
-
+console.log(testLogicalAnd(50)); // The answer should be "Yes" or "No"
