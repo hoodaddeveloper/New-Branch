@@ -45,7 +45,19 @@ function compareEquality(a, b) {
   return "Not Equal";
 }
 
-console.log(compareEquality(10, "10")); // The answer should be "Equal" or "Not Equal"
+console.log(compareEquality(10, 10)); // The answer should be "Equal" or "Not Equal"
+
+// Other example from freeCodeCamp using "&&" logical Ooerator
+
+function testLogicalAnd(val) {
+
+  if (val <= 50 && val >= 25 ) {
+      return "Yes";
+    }
+  return "No";
+}
+
+testLogicalAnd(10);
 
 // The switch keyword
 
