@@ -14,4 +14,38 @@ if (season === 'spring') {
   console.log('Invalid season.');
 }
 
+// Examples from freeCodeCamp
+
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+console.log(testEqual(10)); // The answer should be "Equal" or "Not Equal"
+
+// Other example from freeCodeCamp
+
+function testStrict(val) {
+  if (val === 7) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+console.log(testStrict(7)); // The answer should be "Equal" or "Not Equal"
+
+// Other example from freeCodeCamp for comparing two different values
+
+function compareEquality(a, b) {
+  if (a === b) { // Change this line or the values in the console.log
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+console.log(compareEquality(10, "10")); // The answer should be "Equal" or "Not Equal"
+
 // The switch keyword
+
