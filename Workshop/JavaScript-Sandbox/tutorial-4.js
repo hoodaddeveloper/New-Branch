@@ -80,3 +80,31 @@ switch (athleteFinalPosition) {
     console.log('No medal awarded.');
     break;
 }
+
+// Other example
+
+function sequentialSizes(val) {
+  let answer = "";
+  switch (val) {
+    case 1:
+    case 2:
+    case 3:
+      return "Low";
+      break; // break is used to stop the execution of the code after the case is met
+
+    case 4:
+    case 5:
+    case 6:
+      return "Mid";
+      break;
+
+    case 7:
+    case 8:
+    case 9:
+      return "High";
+      break;
+  }
+  return answer; // This is the default return value if the switch statement is not met
+}
+
+sequentialSizes(1); // The answer should be "Low"
