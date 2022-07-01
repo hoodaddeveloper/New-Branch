@@ -57,4 +57,4 @@ function testLogicalAnd(val) {
   return "No";
 }
 
-console.log(testLogicalAnd(50)); // The answer should be "Yes" or "No"
+console.log(testLogicalAnd(10)); // The answer should be "Yes" or "No"
