@@ -17,8 +17,8 @@ if (age > 18 && registeredEarly) { // If the user is older than 18 and registere
   console.log(`Your race will begin at 9:30 am & your race number is ${raceNumber}`);
 } else if (age > 18 && !registeredEarly) { // If the user is older than 18 and NOT registered early
   console.log(`Your race will begin at 11:00 am & your race number is ${raceNumber}`);
-} else if (age < 18) {
+} else if (age < 18) { // If the user is younger than 18
   console.log(`Your race will begin at 12:30 pm & your race number is ${raceNumber}`);
-} else {
+} else { // If the user is exactly 18 years old
   console.log(`Your are 18 years old? Please see the registration desk.`);
 }
