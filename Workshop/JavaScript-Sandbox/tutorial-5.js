@@ -22,3 +22,4 @@ if (age > 18 && registeredEarly) { // If the user is older than 18 and registere
 } else { // If the user is exactly 18 years old
   console.log(`Your are 18 years old? Please see the registration desk.`);
 }
+
