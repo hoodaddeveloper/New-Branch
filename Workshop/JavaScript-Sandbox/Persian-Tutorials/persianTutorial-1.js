@@ -15,3 +15,22 @@ const isMarried = true; // const is a constant variable
 console.log(fname);
 console.log(age);
 console.log(isMarried);
+
+// Object //
+
+let myObject = {
+  marke: "BMW",
+  model: "X7",
+  year: 2022,
+  motor: {
+    type: "V8",
+    horsepower: "500",
+    torque: "500",
+    adress: ["Robert-Koch-Strasse", "Berlin", "Germany"]
+  },
+  color: "white",
+  price: "gratis!",
+  isNew: true,
+}
+
+console.log(myObject);
