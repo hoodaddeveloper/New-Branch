@@ -35,11 +35,22 @@ sayThanks(); // You cann call the function as many times as you want
 
 /////     Parameters and Arguments in a Function     /////
 
-// 1st Example 
-
 function sayThanks(name) {
   console.log('Thank you for your purchase '+ name + '! We appreciate your business.');
 }
 
 sayThanks("Cole"); // Prints "Thank you for your purchase Cole! We appreciate your business."
+
+/////     Default Parameters in ES6     /////
+
+// 1st Example
+
+function greeting (name = 'stranger') { // If the user doesn't enter a name, the default value of name is "stranger"
+  console.log(`Hello, ${name}!`)
+}
+ 
+greeting('Nick') // Output: Hello, Nick!
+greeting() // Output: Hello, stranger!
+
+// 2nd Example
 
