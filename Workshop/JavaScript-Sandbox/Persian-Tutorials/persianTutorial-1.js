@@ -82,4 +82,17 @@ result = num1 ** num2; // result = 16
 result = num1 / num2; // result = 2
 result = num1 % num2; // result = 0
 
+result = 2 + 4 * 2; // result = 10
+result = (2 + 4) * 2; // result = 12
+
+result = 10;
+result += 3; // result = 13
+result -= 3; // result = 7
+
+result = 5;
+result++; // result = 6 // increment by 1
+++result; // result = 6
+result--; // result = 4 // decrement by 1
+--result; // result = 4
+
 console.log(result);
