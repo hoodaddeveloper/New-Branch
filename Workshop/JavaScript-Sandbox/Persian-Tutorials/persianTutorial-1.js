@@ -105,7 +105,10 @@ res = Math.E; // res = 2.718281828459045
 res = Math.round(2.4); // res = 2, rounds to the nearest integer
 res = Math.round(2.8); // res = 3, rounds to the nearest integer
 
-res = Math.floor(2.8); // res = 2 // allways rounds down
-res = Math.ceil(2.2); // res = 3 // allways rounds up
+res = Math.floor(2.8); // res = 2 allways rounds down
+res = Math.ceil(2.2); // res = 3 allways rounds up
+
+res = Math.sqrt(64); // res = 8 (Radical of 64)
+res = Math.abs(-10); // res = 10 (absolute value of -10) - (Gahdre Motlagh)
 
 console.log(res);
