@@ -23,3 +23,13 @@ if (age > 18 && registeredEarly) { // If the user is older than 18 and registere
   console.log(`Your are 18 years old? Please see the registration desk.`);
 }
 
+/////     Calling a Function     /////
+
+function sayThanks() {
+  console.log('Thank you for your purchase! We appreciate your business.');
+}
+
+sayThanks();
+sayThanks();
+sayThanks(); // You cann call the function as many times as you want
+
