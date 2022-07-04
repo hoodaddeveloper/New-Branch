@@ -73,3 +73,16 @@ function monitorCount(rows, columns) { // The function monitorCount takes two pa
 const numOfMonitors = monitorCount(5, 4); // The variable numOfMonitors is equal to the value of monitorCount(5, 4)
 console.log(numOfMonitors); // Output: 20
 
+/////     Helper Functions     /////
+
+function monitorCount(rows, columns) { // The function monitorCount takes two parameters, rows and columns
+  return rows * columns;
+};
+
+function costOfMonitors(rows, columns) {
+  return monitorCount(rows, columns) * 200; // The function costOfMonitors takes two parameters and returns the value of monitorCount(rows, columns) * 200
+};
+
+const totalCost = costOfMonitors(5, 4); // The variable totalCost is equal to the value of costOfMonitors(5, 4)
+console.log(totalCost); // Output: 4000
+
