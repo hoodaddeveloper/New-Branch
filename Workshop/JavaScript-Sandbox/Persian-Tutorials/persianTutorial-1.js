@@ -39,8 +39,9 @@ let myObject = {
 
 function myFun() {
   console.log("Hello");
-  return "World";
+  return "World"; // return is used to return a value from the function
   console.log("byebye") // this line is not executed
 }
 
+myFun(); // prints only "Hello"
 console.log(myFun()); // prints only "Hello" and "World"
