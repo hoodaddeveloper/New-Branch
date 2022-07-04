@@ -54,3 +54,22 @@ greeting() // Output: Hello, stranger!
 
 // 2nd Example
 
+function makeShoppingList(item1 = "milk", item2 = "bread", item3 = "eggs"){
+  console.log(`Remember to buy ${item1}`);
+  console.log(`Remember to buy ${item2}`);
+  console.log(`Remember to buy ${item3}`);
+}
+
+makeShoppingList() // Output: Remember to buy eggs
+
+/////     Return     /////
+
+// To pass back information from the function call, we use a "return" statement
+
+function monitorCount(rows, columns) { // The function monitorCount takes two parameters, rows and columns
+  return rows * columns; // The function returns the value of rows * columns
+}
+
+const numOfMonitors = monitorCount(5, 4); // The variable numOfMonitors is equal to the value of monitorCount(5, 4)
+console.log(numOfMonitors); // Output: 20
+
