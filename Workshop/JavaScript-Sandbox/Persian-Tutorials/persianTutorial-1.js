@@ -96,3 +96,16 @@ result--; // result = 4 // decrement by 1
 --result; // result = 4
 
 console.log(result);
+
+// More about maths
+
+res = Math.PI; // res = 3.141592653589793
+res = Math.E; // res = 2.718281828459045
+
+res = Math.round(2.4); // res = 2, rounds to the nearest integer
+res = Math.round(2.8); // res = 3, rounds to the nearest integer
+
+res = Math.floor(2.8); // res = 2 // allways rounds down
+res = Math.ceil(2.2); // res = 3 // allways rounds up
+
+console.log(res);
