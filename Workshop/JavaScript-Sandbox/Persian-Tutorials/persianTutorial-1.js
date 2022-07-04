@@ -37,11 +37,49 @@ let myObject = {
 
 /////     Function example     /////
 
-function myFun() {
+// example 1
+
+function myFun1(name, age) {
+  console.log(`Salam ${name}, are you ${age} years old?`);
+}
+
+myFun1("Hoodad", 27); // prints "Salam Hoodad, are you 27 years old?"
+myFun1("Akbar", 20); // prints "Salam Akbar, are you 20 years old?"
+myFun1("Asghar", 17); // prints "Salam Asghar, are you 17 years old?"
+
+// example 2
+
+function myFun2() {
   console.log("Hello");
   return "World"; // return is used to return a value from the function
   console.log("byebye") // this line is not executed
 }
 
-myFun(); // prints only "Hello"
-console.log(myFun()); // prints only "Hello" and "World"
+myFun2(); // prints only "Hello"
+console.log(myFun2()); // prints only "Hello" and "World"
+
+// example 3
+
+function myMath(num) { // "num" is a parameter
+  return num * num; // "return" is used to return a value from the function
+}
+
+console.log(myMath(6)); // prints 36
+console.log(myMath(10)); // prints 100
+console.log(myMath(50)); // prints 2500
+
+/////     More about Numbers     /////
+
+let result;
+
+let num1 = 4;
+let num2 = 2;
+
+result = num1 + num2; // result = 6
+result = num1 - num2; // result = 2
+result = num1 * num2; // result = 8
+result = num1 ** num2; // result = 16
+result = num1 / num2; // result = 2
+result = num1 % num2; // result = 0
+
+console.log(result);
