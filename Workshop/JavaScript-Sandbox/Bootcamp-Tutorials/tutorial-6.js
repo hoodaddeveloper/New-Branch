@@ -95,8 +95,6 @@ console.log(myDog) // {name: "Camper", legs: 4, friends: ["everything!"]}
 
 /////     Testing Objects for Properties     /////
 
-// Example 1
-
 const myObj3 = {
   top: "hat",
   bottom: "pants"
@@ -106,5 +104,45 @@ myObj3.hasOwnProperty("top"); // true
 myObj3.hasOwnProperty("middle"); // false
 console.log(myObj3.hasOwnProperty("middle"));
 
-// Example 2
+/////     Accessing Nested Objects     /////
 
+const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+
+const gloveBoxContents = myStorage.car.inside["glove box"];
+console.log(gloveBoxContents); // "maps" (the value of the glove box)
+
+/////     Accessing Nested Arrays     /////
+
+const ourPets = [
+  {
+    animalType: "cat",
+    names: [
+      "Meowzer",
+      "Fluffy",
+      "Kit-Cat"
+    ]
+  },
+  {
+    animalType: "dog",
+    names: [
+      "Spot",
+      "Bowser",
+      "Frankie"
+    ]
+  }
+];
+
+ourPets[0].names[1]; // "Fluffy"
+ourPets[1].names[0]; // "Spot"
+
+// Continue in tutorial-7.js ...
