@@ -56,11 +56,11 @@ const ourDog = {
 };
 
 ourDog.name = ["Jax"]; // "Jax" is now the value of ourDog.name
-// or //
+// or like this //
 ourDog["name"] = ["Buster"]; // "Buster" is now the value of ourDog.name
 
 console.log(ourDog["name"]); 
-// or //
+// or like this //
 console.log(ourDog.name);
 
 /////     Add New Properties to Objects    /////
@@ -72,7 +72,23 @@ const myCat = {
 };
 
 myCat.gender = "male"; // adding "gender" to my object
-// or //
+// or like this //
 myCat["favotite-food"] = "fish"; // adding "favotite-food" to my object
 
 console.log(myCat)
+
+/////     Delete Properties from a JavaScript Object     /////
+
+const myDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"],
+  "bark": "bow-wow"
+};
+
+delete myDog.bark; // delete the "bark" property from myDog
+// or like this //
+delete myDog["tails"]; // delete the "tails" property from myDog
+
+console.log(myDog) // {name: "Camper", legs: 4, friends: ["everything!"]}
