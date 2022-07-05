@@ -45,3 +45,22 @@ const testObj2 = {
 
 const entreeValue = testObj2["an entree"]; // "hamburger"
 const drinkValue = testObj2["the drink"]; // "water"
+
+// Updating Object Properties
+
+// Example 1
+
+const ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+ourDog.name = ["Jax"]; // "Jax" is now the value of ourDog.name
+// or //
+ourDog["name"] = ["Buster"]; // "Buster" is now the value of ourDog.name
+
+console.log(ourDog["name"]); 
+// or //
+console.log(ourDog.name);
