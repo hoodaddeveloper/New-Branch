@@ -85,3 +85,5 @@ function costOfMonitors(rows, columns) {
 
 const totalCost = costOfMonitors(5, 4); // The variable totalCost is equal to the value of costOfMonitors(5, 4)
 console.log(totalCost); // Output: 4000
+
+// Continue in tutorial-6.js ...
