@@ -1,4 +1,4 @@
-// Accessing Object Properties with Dot Notation
+/////     Accessing Object Properties with Dot Notation     /////
 
 // Example 1
 
@@ -21,7 +21,7 @@ const testObj = {
 const hatValue = testObj.hat;
 const shirtValue = testObj.shirt;
 
-// Accessing Object Properties with Bracket Notation
+/////     Accessing Object Properties with Bracket Notation     /////
 
 // Example 1
 
@@ -46,9 +46,7 @@ const testObj2 = {
 const entreeValue = testObj2["an entree"]; // "hamburger"
 const drinkValue = testObj2["the drink"]; // "water"
 
-// Updating Object Properties
-
-// Example 1
+/////     Updating Object Properties     /////
 
 const ourDog = {
   "name": "Camper",
@@ -64,3 +62,17 @@ ourDog["name"] = ["Buster"]; // "Buster" is now the value of ourDog.name
 console.log(ourDog["name"]); 
 // or //
 console.log(ourDog.name);
+
+/////     Add New Properties to Objects    /////
+
+const myCat = {
+  name: "Lusy",
+  age: 2,
+  color: "white"
+};
+
+myCat.gender = "male"; // adding "gender" to my object
+// or //
+myCat["favotite-food"] = "fish"; // adding "favotite-food" to my object
+
+console.log(myCat)
