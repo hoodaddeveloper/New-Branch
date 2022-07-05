@@ -22,3 +22,26 @@ const hatValue = testObj.hat;
 const shirtValue = testObj.shirt;
 
 // Accessing Object Properties with Bracket Notation
+
+// Example 1
+
+const myObj2 = {
+  "Space Name": "Kirk",
+  "More Space": "Spock",
+  "NoSpace": "USS Enterprise"
+};
+
+myObj2["Space Name"]; // Kirk
+myObj2['More Space']; // Spock
+myObj2["NoSpace"]; // USS Enterprise
+
+// Example 2
+
+const testObj2 = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+const entreeValue = testObj2["an entree"]; // "hamburger"
+const drinkValue = testObj2["the drink"]; // "water"
