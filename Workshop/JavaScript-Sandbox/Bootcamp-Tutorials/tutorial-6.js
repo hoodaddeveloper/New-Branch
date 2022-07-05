@@ -92,3 +92,19 @@ delete myDog.bark; // delete the "bark" property from myDog
 delete myDog["tails"]; // delete the "tails" property from myDog
 
 console.log(myDog) // {name: "Camper", legs: 4, friends: ["everything!"]}
+
+/////     Testing Objects for Properties     /////
+
+// Example 1
+
+const myObj3 = {
+  top: "hat",
+  bottom: "pants"
+};
+
+myObj3.hasOwnProperty("top"); // true 
+myObj3.hasOwnProperty("middle"); // false
+console.log(myObj3.hasOwnProperty("middle"));
+
+// Example 2
+
