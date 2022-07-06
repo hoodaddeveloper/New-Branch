@@ -113,9 +113,11 @@ res = Math.min(2, 3, 4, -1, 0); // res = -1 (min value of 2, 3, 4 and -1)
 res = Math.max(2, 3, 4, -1, 0); // res = 4 (max value of 2, 3, 4 and -1)
 res = Math.random(); // res = random number between 0 and 0.9
 
-// But if you want to get a number between 0 and 100, you can use the following:
+// If you want to get a number between 0 and 20:
+res = Math.floor(Math.random() * 21); // res = random number between 0 and 20
 
-res = Math.floor(Math.random() * 101); // res = random number between 0 and 100
+// If you want to get a number between a range, for example between 10 and 20:
+res = Math.floor(Math.random() * (21 - 10)) + 10; // res = random number between 10 and 20
 
 console.log(res);
 
