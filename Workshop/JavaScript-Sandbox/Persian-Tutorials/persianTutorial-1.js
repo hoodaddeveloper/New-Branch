@@ -104,11 +104,14 @@ res = Math.E; // res = 2.718281828459045
 
 res = Math.round(2.4); // res = 2, rounds to the nearest integer
 res = Math.round(2.8); // res = 3, rounds to the nearest integer
-
 res = Math.floor(2.8); // res = 2 allways rounds down
 res = Math.ceil(2.2); // res = 3 allways rounds up
-
 res = Math.sqrt(64); // res = 8 (Radical of 64)
 res = Math.abs(-10); // res = 10 (absolute value of -10) - (Gahdre Motlagh)
+res = Math.pow(2, 6); // res = 64 (Yani 2 be tavane 64)
+res = Math.min(2, 3, 4, -1, 0); // res = -1 (min value of 2, 3, 4 and -1)
+res = Math.max(2, 3, 4, -1, 0); // res = 4 (max value of 2, 3, 4 and -1)
 
 console.log(res);
+
+// Continue in persianTutorial-2,js ...
