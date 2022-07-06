@@ -111,6 +111,11 @@ res = Math.abs(-10); // res = 10 (absolute value of -10) - (Gahdre Motlagh)
 res = Math.pow(2, 6); // res = 64 (Yani 2 be tavane 64)
 res = Math.min(2, 3, 4, -1, 0); // res = -1 (min value of 2, 3, 4 and -1)
 res = Math.max(2, 3, 4, -1, 0); // res = 4 (max value of 2, 3, 4 and -1)
+res = Math.random(); // res = random number between 0 and 0.9
+
+// But if you want to get a number between 0 and 100, you can use the following:
+
+res = Math.floor(Math.random() * 101); // res = random number between 0 and 100
 
 console.log(res);
 
