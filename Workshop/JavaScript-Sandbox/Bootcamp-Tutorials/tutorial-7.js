@@ -16,9 +16,31 @@ console.log(ourArray); // [1, 2, 3, 4]
 const myArray = [];
 let x = 5;
 
-while (x > -1) {
+while (x >= 0) {
   myArray.push(x);
   x--;
 }
 
 console.log(myArray);
+
+///// Iterate with JavaScript For Loops /////
+
+// Example 1:
+
+const yourArray = [];
+
+for (let i = 0; i < 10; i++) { // start at 0, stop before 10 (not including 10) and increment by 1
+  yourArray.push(i);
+}
+
+console.log(yourArray); // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+// Example 2:
+
+const myArray2 = [];
+
+for (let q = 1; q < 7; q++) {
+  myArray2.push(q);
+}
+
+console.log(myArray2); // [1, 2, 3, 4, 5, 6]
