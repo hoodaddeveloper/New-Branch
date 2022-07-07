@@ -49,8 +49,28 @@ console.log(myArray2); // [1, 2, 3, 4, 5, 6]
 
 const myArray3 = [];
 
-for (s = 0; s < 20; s += 2) {
+for (let s = 0; s < 20; s += 2) {
   myArray3.push(s);
 }
 
 console.log(myArray3);
+
+// Example 4 (Counting backwards):
+
+const myArray4 = [];
+
+for (let i = 10; i > -11; i--) {
+  myArray4.push(i);
+}
+
+console.log(myArray4);
+
+// Example 5 (Counting backwards):
+
+const myArray5 = [];
+
+for (let i = 9; i > 0; i -= 2) {
+  myArray5.push(i);
+}
+
+console.log(myArray5);
