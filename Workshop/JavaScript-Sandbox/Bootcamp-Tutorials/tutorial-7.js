@@ -74,3 +74,17 @@ for (let i = 9; i > 0; i -= 2) {
 }
 
 console.log(myArray5);
+
+///// Do...While Loops /////
+
+// Example 1:
+
+const ourArray2 = []; 
+let j = 1;
+
+do {
+  ourArray2.push(j);
+  j++;
+} while (j < 5);
+
+console.log(ourArray2);
