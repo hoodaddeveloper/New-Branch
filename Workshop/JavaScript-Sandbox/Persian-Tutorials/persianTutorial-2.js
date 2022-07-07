@@ -43,3 +43,44 @@ console.log(result9);
 console.log(result10);
 console.log(result11 + " " + lastName);
 console.log(result12);
+
+///// More of if...else /////
+
+
+// Example 1:
+
+let number = 10;
+
+if (number > 10 && number < 20) {
+  console.log("The number is between 10 and 20");
+} else if (number === 10) {
+  console.log("The number is 10");
+} else {
+  console.log("The number is not between 10 and 20");
+}
+
+// Example 2:
+
+let isKind = true;
+let isRich = true;
+
+if (isKind && isRich) {
+  console.log("You are a kind and rich person");
+} else if (isKind) {
+  console.log("You are a kind person");
+} else if (isRich) {
+  console.log("You are a rich person");
+} else {
+  console.log("You are a simple person");
+}
+
+///// Working with try & catch /////
+
+try {
+  let result;
+  result = 22 - 2;
+
+  console.log(sum);
+} catch (error) {
+  console.log(error.message);
+}
