@@ -44,3 +44,13 @@ for (let q = 1; q < 7; q++) {
 }
 
 console.log(myArray2); // [1, 2, 3, 4, 5, 6]
+
+// Example 3:
+
+const myArray3 = [];
+
+for (s = 0; s < 20; s += 2) {
+  myArray3.push(s);
+}
+
+console.log(myArray3);
