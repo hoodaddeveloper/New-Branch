@@ -29,7 +29,7 @@ result8 = firstName.indexOf("o"); // 1 - index of the first occurrence of the ch
 result9 = str1.split(" "); // ["Hello", "my", "name", "is", "Hoodad"] - split the string by spaces
 result10 = str2.split(","); // ["Hello", "my", "name", "is", "Hoodad"] - split the string by commas
 result11 = firstName.replace("John", "Jane"); // "Jane" - replace the first occurrence of the string "John" with "Jane"
-
+result12 = str1.includes("Ali"); // false - check if the string includes the substring "Ali"
 
 console.log(result1);
 console.log(result2);
