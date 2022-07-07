@@ -85,6 +85,8 @@ let j = 1;
 do {
   ourArray2.push(j);
   j++;
-} while (j < 5);
+} while (j < 5); // while j is less than 5
 
-console.log(ourArray2);
+console.log(ourArray2); // [1, 2, 3, 4]
+
+// Continue in tutorial-8.js ...
