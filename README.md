@@ -1,2 +1,2 @@
 # Repositories
-A copy of all of my Repositories in a single Repository.
+A copy of all of my repositories in a single repository.
